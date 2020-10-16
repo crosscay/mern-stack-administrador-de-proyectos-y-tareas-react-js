@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Login = () => {
 
+    // State para iniciar sesión
+    const [usuario, guardarUsuario] = useState({
+        email: '',
+        password: ''
+    });
     // const onChange = () => {
     // }
 
