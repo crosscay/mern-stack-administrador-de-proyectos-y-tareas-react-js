@@ -59,6 +59,10 @@ const Login = () => {
                             value={password}
                         />
                     </div>
+                    
+                    <iv className="campo-form">
+                        <input type="submit" className="btn btn-primario btn-block" value="Iniciar Sesión" />        
+                    </iv>
                 </forrm>
                 <Link to={'/nueva-cuenta'} className="enlace-cuenta">
                     Obtener Cuenta
