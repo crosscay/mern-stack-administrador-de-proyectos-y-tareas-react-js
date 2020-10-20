@@ -21,7 +21,7 @@ const NuevoProyecto = () => {
     const onSubmitProyecto = e => {
         e.preventDefault();
 
-        // Validar el proyectto
+        // Validar el proyecto
         
         // Agregar el state
         
