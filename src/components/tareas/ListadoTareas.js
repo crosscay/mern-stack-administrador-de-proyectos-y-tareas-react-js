@@ -4,10 +4,10 @@ import Tarea from './Tarea';
 const ListadoTareas = () => {
 
     const tareasProyectos = [
-        { nombre: 'Elegir Plataforma', estado: true },
-        { nombre: 'Elegir Colores', estado: false },
-        { nombre: 'Elegir Plataformas de pago', estado: false },
-        { nombre: 'Elegir Hosting', estado: true }
+        { id: 1, nombre: 'Elegir Plataforma', estado: true },
+        { id: 2, nombre: 'Elegir Colores', estado: false },
+        { id: 3, nombre: 'Elegir Plataformas de pago', estado: false },
+        { id: 4, nombre: 'Elegir Hosting', estado: true }
     ];
 
     return ( 
@@ -19,6 +19,7 @@ const ListadoTareas = () => {
                   : tareasProyectos.map(tarea=>(
                     <Tarea 
                         tarea={tarea}
+                        key={tarea.id}
                     />
                   ))
                 }

@@ -4,9 +4,9 @@ import Proyecto from './Proyecto';
 const ListadoProyectos = () => {
 
     const proyectos = [
-        {nombre: 'Tienda Virtual'},
-        {nombre: 'Intranet'},
-        {nombre: 'Diseño de Sitio web'}
+        {id: 1, nombre: 'Tienda Virtual'},
+        {id: 2, nombre: 'Intranet'},
+        {id: 3, nombre: 'Diseño de Sitio web'}
 
     ]
 
@@ -15,6 +15,7 @@ const ListadoProyectos = () => {
             {proyectos.map(proyecto => (
                 <Proyecto 
                     proyecto={proyecto}
+                    key={proyecto.id}
                 />
             ))}
         </ul>
