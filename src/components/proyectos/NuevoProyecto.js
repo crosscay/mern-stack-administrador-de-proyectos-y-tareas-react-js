@@ -11,7 +11,6 @@ const NuevoProyecto = () => {
     const [ proyecto, guardarProyecto ] = useState({
         nombre: ''
     });
-    console.log(formulario);
     // Extraer nombre de proyecto
     const { nombre } = proyecto;
 
@@ -34,12 +33,17 @@ const NuevoProyecto = () => {
         // Reiniciar el form
     }
 
+    const onClickFormulario = () => {
+        mostrarFormulario();
+    }
+
     return ( 
         <Fragment>
             <button
             type="button"
             className="btn btn-block btn-primario"
-            onClick={() => mostrarFormulario()}
+            // onClick={() => mostrarFormulario()}
+            onClick={onClickFormulario}
         >
             Nuevo Proyecto
         </button>
