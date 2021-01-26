@@ -1,4 +1,4 @@
-import React, { nuseContext } from 'react';
+import React, { useContext } from 'react';
 import proyectoContext from '../../context/proyectos/ProyectoContext';
 
 const Proyectos = ({proyecto}) => {

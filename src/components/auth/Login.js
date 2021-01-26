@@ -30,46 +30,50 @@ const Login = () => {
         // Pasarlo al action
     }
 
-    return (
+    return ( 
         <div className="form-usuario">
+
             <div className="contenedor-form sombra-dark">
                 <h1>Iniciar Sesión</h1>
-                <forrm
+
+                <form
                     onSubmit={onSubmit}
                 >
                     <div className="campo-form">
                         <label htmlFor="email">Email</label>
                         <input 
-                            type="email" 
+                            type="email"
                             id="email"
                             name="email"
-                            placeholder="email"
-                            onChange={onChange}
+                            placeholder="Tu Email"
                             value={email}
+                            onChange={onChange}
                         />
                     </div>
+
                     <div className="campo-form">
                         <label htmlFor="password">Password</label>
                         <input 
-                            type="password" 
+                            type="password"
                             id="password"
                             name="password"
                             placeholder="Tu Password"
-                            onChange={onChange}
                             value={password}
+                            onChange={onChange}
                         />
                     </div>
-                    
-                    <iv className="campo-form">
-                        <input type="submit" className="btn btn-primario btn-block" value="Iniciar Sesión" />        
-                    </iv>
-                </forrm>
+
+                    <div className="campo-form">
+                        <input type="submit" className="btn btn-primario btn-block" value="Iniciar Sesión" />
+                    </div>
+                </form>
+
                 <Link to={'/nueva-cuenta'} className="enlace-cuenta">
                     Obtener Cuenta
                 </Link>
             </div>
-        </div>  
-    );
+        </div>
+     );
 }
  
 export default Login;

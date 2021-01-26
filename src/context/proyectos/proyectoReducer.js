@@ -33,7 +33,7 @@ export default (state, action) => {
         case PROYECTO_ACTUAL:
             return {
                 ...state,
-                proyecto: state.proyectos.filter(proyecto => proyecto.id == action.payload)
+                proyecto: state.proyectos.filter(proyecto => proyecto.id === action.payload)
             }
         default:
             return state;
