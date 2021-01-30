@@ -6,7 +6,8 @@ const Proyectos = ({proyecto}) => {
     // Obtener el state de proyectos
     const proyectosContext = useContext(proyectoContext);
 
-    const { proyectoActual} = proyectosContext;
+    const { proyectoActual } = proyectosContext;
+
     return ( 
         <li>
             <button

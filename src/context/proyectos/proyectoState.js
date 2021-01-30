@@ -1,7 +1,13 @@
 import React, { useReducer } from 'react';
 import ProyectoContext from './ProyectoContext';
 import ProyectoReducer from './ProyectoReducer';
-import { FORMULARIO_PROYECTO, OBTENER_PROYECTOS, AGREGAR_PROYECTO, VALIDAR_FORMULARIO, PROYECTO_ACTUAL } from '../../types';
+import { 
+    FORMULARIO_PROYECTO, 
+    OBTENER_PROYECTOS, 
+    AGREGAR_PROYECTO, 
+    VALIDAR_FORMULARIO, 
+    PROYECTO_ACTUAL
+} from '../../types';
 import { v4 as uuidv4 } from 'uuid';
 
 const ProyectoState = props => {

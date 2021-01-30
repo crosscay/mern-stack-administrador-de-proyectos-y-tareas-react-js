@@ -14,6 +14,9 @@ const ListadoTareas = () => {
     // Array Destructuring para extraer el proyecto actual
     const [proyectoActual] = proyecto;
 
+    // console.log(proyectoActual);
+    // console.log(proyecto);
+
     const tareasProyectos = [
         { id: 1, nombre: 'Elegir Plataforma', estado: true },
         { id: 2, nombre: 'Elegir Colores', estado: false },
