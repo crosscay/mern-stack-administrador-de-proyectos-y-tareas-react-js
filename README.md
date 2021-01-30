@@ -1,7 +1,7 @@
 # Administrador de proyectos y tareas MERN STACK
 Aplicación web creada en react js para la gestión de proyectos y tareas, usando hooks, mongodb, node, y express.
 
-### [Demostración](https://crosscay.github.io/cotizador_de_seguro_de_automovil_react/)
+### [Demostración](https://mern-administrador-de-proyectos-y-tareas.netlify.app/)
 
 ### Sceenshot
 ![inicio_sesion](https://user-images.githubusercontent.com/15184739/106368876-215de300-631b-11eb-812e-0c1982b03b49.PNG)

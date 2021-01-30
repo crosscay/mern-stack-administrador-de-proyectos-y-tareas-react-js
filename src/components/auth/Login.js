@@ -1,8 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import styled from '@emotion/styled';
 
+const TituloBotonIniciarSesion = styled.div`
+    text-align: center;
+`; 
 
 const Login = () => {
+
+    // const styleLink = {
+    //     textAlign: 'center'
+    // };
 
     // State para iniciar sesión
     const [usuario, guardarUsuario] = useState({
@@ -64,7 +72,10 @@ const Login = () => {
                     </div>
 
                     <div className="campo-form">
-                        <input type="submit" className="btn btn-primario btn-block" value="Iniciar Sesión" />
+                        {/* <input type="button" className="btn btn-primario btn-block" value="Iniciar Sesión" /> */}
+                        <Link to={'/proyectos'}  className="btn btn-primario btn-block">
+                            <TituloBotonIniciarSesion>Iniciar Sesión</TituloBotonIniciarSesion>
+                        </Link>
                     </div>
                 </form>
 
