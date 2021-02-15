@@ -13,7 +13,7 @@ Aplicación web creada en react js para la gestión de proyectos y tareas, usand
 Para iniciar el proyecto utilice:
 
 ```bash
-$ git clon https://github.com/crosscay/mern_stack_administrador_de_proyectos_y_tareas_react_js.git
+$ git clon https://github.com/crosscay/mern-stack-administrador-de-proyectos-y-tareas-react-js.git
 $ cd mern_administrador_de_proyectos_y_tareas
 # instala las dependencias del proyecto
 $ npm i
