@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { /*useState*/ useContext } from 'react';
 import proyectoContext from '../../context/proyectos/ProyectoContext';
 
 const FormTarea = () => {
@@ -11,7 +11,7 @@ const FormTarea = () => {
     if (!proyecto) return null;
 
     // Array Destructuring para extraer el proyecto actual
-    const [proyectoActual] = proyecto;
+    // const [proyectoActual] = proyecto;
 
     const nombre = '';
     

@@ -1,4 +1,4 @@
-import { StaticRouter } from "react-router-dom"
+// import { StaticRouter } from "react-router-dom"
 
 export default (state, action) => {
 
